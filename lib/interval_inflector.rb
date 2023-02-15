@@ -3,8 +3,6 @@
 require "active_support/all"
 
 class IntervalInflector
-  VERSION = "0.1.0"
-
   def initialize(duration:, requested_part:)
     @duration = duration
     @requested_part = requested_part
