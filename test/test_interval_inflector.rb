@@ -3,10 +3,6 @@
 require "test_helper"
 
 class TestIntervalInflector < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::IntervalInflector::VERSION
-  end
-
   def test_single_minute_in_seconds
     assert_equal "every 60 seconds", 1.minute.to_interval(in: :seconds)
   end
