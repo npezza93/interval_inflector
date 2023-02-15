@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require_relative "lib/interval_inflector"
-
 Gem::Specification.new do |spec|
   spec.name = "interval_inflector"
   spec.version = "0.0.1"
