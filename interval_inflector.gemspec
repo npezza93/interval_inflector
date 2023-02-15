@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "interval_inflector"
-  spec.version = "0.0.1"
+  spec.version = "1.0.0"
   spec.authors = ["Nick Pezza"]
   spec.email = ["pezza@hey.com"]
 
