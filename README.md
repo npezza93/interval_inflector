@@ -1,4 +1,4 @@
-# IntervalInflector
+# interval_inflector
 
 Adds support for stringifying ActiveSupport::Duration objects into intervals
 
